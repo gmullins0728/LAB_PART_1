@@ -1,0 +1,110 @@
+.header {
+    background-color: #f9fafc;;
+    font-family: "Open Sans";
+    font-weight: normal, 800;
+    margin: auto;
+    max-width: 50%;
+    height: 600px;
+    padding: 5px 50px;
+}
+
+/* Navigation */
+.navlist {
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+}
+
+.navlist a.btn {
+    color: #69696a;
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    margin-right: 30px;
+}
+.navlist a.btn:hover {
+    background-color: #000;
+    color: #f9fafc;
+    border-radius: 20px;
+    padding: 10px 30px;
+    text-align: center;
+    text-decoration: none;
+}
+
+/* Paragraph */
+.main {
+    margin-top: 10%;
+    padding: 0 20px;
+}
+
+.box {
+    color: #69696a;
+    width:46%;
+    border-left: 3px solid rgba(105,105,106,0.1);
+    padding: 0 15px;
+}
+
+/* Three Circles */
+.circle {
+    position: absolute;
+    /*margin-left: 34%;
+    margin-top: -8%;*/
+}
+
+.pink {
+    position: relative;
+    left: 620px;
+    bottom: 150px;
+    background-color: rgba(247,136,167,0.6);
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    display: inline-block;
+    z-index: -0.8;
+}
+
+.purple {
+    position: relative;
+    left: 580px;
+    bottom: 270px;
+    background-color: rgba(207,130,213,0.6);
+    height: 110px;
+    width: 110px;
+    border-radius: 50%;
+    display: inline-block;
+    z-index: -0.3;
+}
+
+.orange {
+    position: relative;
+    left: 450px;
+    bottom: 140px;
+    background-color: rgba(247,193,162,0.7);
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    display: inline-block;
+    z-index: 1;
+}
+
+/* Scroll Down Button */
+#scroll {
+    position: absolute;
+    margin: 10% 22%;
+}
+
+#scroll a.btn {
+    color: #69696a;
+    display: block;
+    text-decoration: none;
+    padding: 10px;
+}
+
+#scroll a.btn:hover {
+    background-color: #000;
+    color: #f9fafc;
+    border-radius: 20px;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+}
