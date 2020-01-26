@@ -1,24 +1,37 @@
-.header {
-    background-color: #f9fafc;;
-    font-family: "Open Sans";
-    font-weight: normal, 800;
+body {
     margin: auto;
-    max-width: 50%;
-    height: 600px;
-    padding: 5px 50px;
+    background-color: #f9fafc;
+    width: 80%;
+    height: auto;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal, 800;
+    overflow: hidden;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    padding: 30px;
+}
+
+.title {
+    margin-top: 40px;
+    margin-left:100px;
 }
 
 /* Navigation */
 .navlist {
     display: flex;
-    justify-content: flex-end;
+    margin-top: 20px;
+    margin-left: 530px;
     list-style: none;
+    position: absolute;
 }
 
 .navlist a.btn {
     color: #69696a;
     display: block;
-    padding: 10px;
+    padding: 20px;
     text-decoration: none;
     margin-right: 30px;
 }
@@ -33,13 +46,13 @@
 
 /* Paragraph */
 .main {
-    margin-top: 10%;
-    padding: 0 20px;
+    margin-top: 8%;
+    padding: 0 128px;
 }
 
 .box {
     color: #69696a;
-    width:46%;
+    width: 38%;
     border-left: 3px solid rgba(105,105,106,0.1);
     padding: 0 15px;
 }
@@ -47,17 +60,17 @@
 /* Three Circles */
 .circle {
     position: absolute;
-    /*margin-left: 34%;
-    margin-top: -8%;*/
+    margin-left: 17%;
+    margin-top: -2%;
 }
 
 .pink {
     position: relative;
-    left: 620px;
-    bottom: 150px;
+    left: 640px;
+    bottom: 140px;
     background-color: rgba(247,136,167,0.6);
-    height: 250px;
-    width: 250px;
+    height: 300px;
+    width: 300px;
     border-radius: 50%;
     display: inline-block;
     z-index: -0.8;
@@ -65,11 +78,11 @@
 
 .purple {
     position: relative;
-    left: 580px;
-    bottom: 270px;
+    left: 600px;
+    bottom: 250px;
     background-color: rgba(207,130,213,0.6);
-    height: 110px;
-    width: 110px;
+    height: 160px;
+    width: 160px;
     border-radius: 50%;
     display: inline-block;
     z-index: -0.3;
@@ -77,11 +90,11 @@
 
 .orange {
     position: relative;
-    left: 450px;
-    bottom: 140px;
+    left: 370px;
+    bottom: 80px;
     background-color: rgba(247,193,162,0.7);
-    height: 150px;
-    width: 150px;
+    height: 210px;
+    width: 210px;
     border-radius: 50%;
     display: inline-block;
     z-index: 1;
@@ -90,7 +103,7 @@
 /* Scroll Down Button */
 #scroll {
     position: absolute;
-    margin: 10% 22%;
+    margin: 10% 35%;
 }
 
 #scroll a.btn {
