@@ -1,14 +1,14 @@
 body {
-    margin: auto;
+    margin-left: 8%;
     background-color: #f9fafc;
-    width: 80%;
+    width: 100%;
     height: auto;
     font-family: 'Open Sans', sans-serif;
     font-weight: normal, 800;
     overflow: hidden;
 }
 
-.container {
+.header {
     display: flex;
     flex-direction: row;
     padding: 30px;
@@ -31,15 +31,15 @@ body {
 .navlist a.btn {
     color: #69696a;
     display: block;
-    padding: 20px;
+    padding: 10px 20px;
     text-decoration: none;
     margin-right: 30px;
 }
 .navlist a.btn:hover {
     background-color: #000;
     color: #f9fafc;
-    border-radius: 20px;
-    padding: 10px 30px;
+    border-radius: 30px;
+    padding: 10px 20px;
     text-align: center;
     text-decoration: none;
 }
@@ -52,7 +52,7 @@ body {
 
 .box {
     color: #69696a;
-    width: 38%;
+    width: 37%;
     border-left: 3px solid rgba(105,105,106,0.1);
     padding: 0 15px;
 }
@@ -103,7 +103,7 @@ body {
 /* Scroll Down Button */
 #scroll {
     position: absolute;
-    margin: 10% 35%;
+    margin: 10% 38%;
 }
 
 #scroll a.btn {
